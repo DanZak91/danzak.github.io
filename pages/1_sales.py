@@ -1,14 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatter
-from datetime import date, datetime
-import time
 import altair as alt
 import altair_viewer
-from vega_datasets import data
-import numpy as np
-import codecs
 import plotly_express as px
 import codecs
 
