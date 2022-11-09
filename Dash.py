@@ -1,8 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import codecs
-import requests
-from streamlit_lottie import st_lottie
 
 
 def start_main():
