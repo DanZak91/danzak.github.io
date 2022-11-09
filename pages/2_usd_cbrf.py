@@ -1,14 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import yfinance as yf
 from cbrf.models import DynamicCurrenciesRates
 from datetime import date, datetime
-import time
-import altair as alt
-from vega_datasets import data
-import numpy as np
-import codecs
 
 
 def dynamics_USD_CBRF():
