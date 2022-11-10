@@ -22,7 +22,7 @@ def start_main():
       <meta name="viewport" content="width=device-width, initial-scale=1.0" >
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/style_clock.css">
+      <link rel="stylesheet" type="text/css" href="/app/danzak.github.io/css/style_clock.css">
       <style type="text/css">{styles_css_clock}</style>
       <title>Document</title>
     </head>
