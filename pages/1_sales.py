@@ -14,7 +14,7 @@ def sales():
     style_h1_sales = codecs.open('/app/danzak.github.io/css/style_h1_sales.css').read()
     st.markdown(f'<style>{style_h1_sales}</style>', unsafe_allow_html=True)
 
-    dataset = pd.DataFrame(pd.read_excel('Датасет.xlsx', sheet_name=0))
+    dataset = pd.DataFrame(pd.read_excel('/app/danzak.github.io/Датасет.xlsx', sheet_name=0))
     # Добавил столбец, месяц + год
     # dataset['Месяц_год'] = dataset['День'].dt.strftime('%Y, %B')
     dataset['Месяц_год'] = dataset["День"].dt.to_period("M")
