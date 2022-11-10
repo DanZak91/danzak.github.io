@@ -11,7 +11,7 @@ pd.set_option('display.width', None)
 
 def sales():
     st.write('### Отчет по продажам')
-    style_h1_sales = codecs.open('css\style_h1_sales.css').read()
+    style_h1_sales = codecs.open('/app/danzak.github.io/css/style_h1_sales.css').read()
     st.markdown(f'<style>{style_h1_sales}</style>', unsafe_allow_html=True)
 
     dataset = pd.DataFrame(pd.read_excel('Датасет.xlsx', sheet_name=0))
