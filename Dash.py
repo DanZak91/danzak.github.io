@@ -6,11 +6,11 @@ import codecs
 def start_main():
     html_form = codecs.open('html_raz.html', encoding='UTF-8').read()
     st.markdown(html_form, unsafe_allow_html=True)
-    styles_css = codecs.open('css\style.css').read()
+    styles_css = codecs.open('/app/danzak.github.io/css/style.css').read()
     st.markdown(f'<style>{styles_css}</style>', unsafe_allow_html=True)
 
     #часы
-    styles_css_clock = codecs.open('css\style_clock.css', encoding='UTF-8').read()
+    styles_css_clock = codecs.open('/app/danzak.github.io/css/style_clock.css', encoding='UTF-8').read()
     js_clock = codecs.open('js\js_clock.js', encoding='UTF-8').read()
 
     components.html(
