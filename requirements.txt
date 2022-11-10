@@ -8,3 +8,4 @@ plotly-express==0.4.1
 streamlit==1.13.0
 streamlit-lottie==0.0.3
 yfinance==0.1.75
+xlrd >= 1.0.0
