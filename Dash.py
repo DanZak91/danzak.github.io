@@ -11,7 +11,7 @@ def start_main():
 
     #часы
     styles_css_clock = codecs.open('/app/danzak.github.io/css/style_clock.css', encoding='UTF-8').read()
-    js_clock = codecs.open('js\js_clock.js', encoding='UTF-8').read()
+    js_clock = codecs.open('/app/danzak.github.io/js/js_clock.js', encoding='UTF-8').read()
 
     components.html(
         f"""<!DOCTYPE html>
