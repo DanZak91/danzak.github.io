@@ -144,8 +144,7 @@ if __name__ == '__main__':
             .css-wjbhl0 li:nth-child(4) {display: none;}
             .css-wjbhl0 li:nth-child(1) svg {display: none;}
             
-            .css-1ck8f3p {visibility: hidden;}
-            .css-1avcm0n {visibility: hidden;}
+
             </style>
             """
     st.markdown(hide_menu_style, unsafe_allow_html=True)
