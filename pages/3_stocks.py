@@ -5,7 +5,7 @@ import yfinance as yf
 def dynamics_stocks():
     trickerSymbol = 'GOOGL'
     trickerData = yf.Ticker(trickerSymbol)
-    trickerDF = trickerData.history(period='1m', start='2010-5-31', end='2020-5-31')
+    trickerDF = trickerData.history(period='1m', start='2010-5-31', end='2023-5-31')
     st.line_chart(trickerDF.Close)
     st.line_chart(trickerDF.Volume)
 
