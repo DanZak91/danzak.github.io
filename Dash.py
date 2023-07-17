@@ -1,6 +1,6 @@
-# import streamlit as st
-# import streamlit.components.v1 as components
-# import codecs
+import streamlit as st
+import streamlit.components.v1 as components
+import codecs
 
 try:
     # Streamlit < 0.65
