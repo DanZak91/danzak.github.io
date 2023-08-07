@@ -1,2 +1,2 @@
 # danzak.github.io
-![Sc6mb.gif](https://s11.gifyu.com/images/Sc6mb.gif)
+![Sc6mb.gif](https://psv4.userapi.com/c505536/u18756829/docs/d12/a314c6f9048c/1645616542048.gif?extra=dqVq1BDtIHgT8UHFPZGGWZ2Bm23t3vC7DJr49rvyMhOUkE1usAjrsmUPrFVLzkfug57JbRzyb8b9xLbx1o8RdOaHHQgcVbZN2UHCRxl63B9yAfzxIOiOqANKAhqOtEXHD80e2OkUP1peArWUJ-ZbiA)
